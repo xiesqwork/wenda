@@ -4,7 +4,7 @@ spring:
         name: test
         url: jdbc:mysql://127.0.0.1:3306/bs
         username: webadmin
-        password: xiequn11023Q##
+        password: **********
         driver-class-name: com.mysql.jdbc.Driver
   thymeleaf:
     check-template: true
