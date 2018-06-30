@@ -1,0 +1,21 @@
+spring:
+#密码不一样
+  datasource:
+        name: test
+        url: jdbc:mysql://127.0.0.1:3306/bs
+        username: webadmin
+        password: xiequn11023Q##
+        driver-class-name: com.mysql.jdbc.Driver
+  thymeleaf:
+    check-template: true
+    mode: HTML5
+    suffix: .html
+    prefix: classpath:/templates/
+    encoding: UTF-8
+
+#  mvc:
+#    view:
+#      prefix: /templates/
+#      suffix: .jsp ，.html
+server:
+  port: 80
